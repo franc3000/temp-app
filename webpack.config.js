@@ -3,6 +3,14 @@ const webpack = require('webpack');
 /*
  * Webpack Plugins
  */
+
+//target: 'node',
+//node: {
+//  __dirname: false,
+//  __filename: false,
+//}
+console.log(__dirname)
+
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const ManifestRevisionPlugin = require('manifest-revision-webpack-plugin');
 
